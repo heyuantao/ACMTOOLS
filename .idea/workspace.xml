@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="work done">
-      <change afterPath="$PROJECT_DIR$/media/login/src/Settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/pages/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/pages/AppLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/pages/Common/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/pages/Common/store/UserActionCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/pages/Common/store/UserReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/setupProxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/login/src/store/reducer.js" afterDir="false" />
+    <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media/login/src/pages/Common/Utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/login/src/pages/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/login/src/pages/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/login/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/media/login/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/media/login/src/Settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="27">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -58,38 +48,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media/login/src/store/reducer.js">
+        <entry file="file://$PROJECT_DIR$/media/login/src/pages/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+            <state relative-caret-position="378">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/media/login/package.json">
+        <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="297">
+              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media/manager/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="28" selection-end-column="36" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -110,9 +94,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -147,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/media/manager/src/Common/store/LocationIndicatorReducer.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheating/index.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/App.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/Common/store/UserReducer.js" />
         <option value="$PROJECT_DIR$/media/manager/src/store/reducer.js" />
@@ -191,13 +173,15 @@
         <option value="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/media/.gitignore" />
-        <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" />
         <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js" />
         <option value="$PROJECT_DIR$/media/login/src/pages/AppLayout.js" />
         <option value="$PROJECT_DIR$/media/login/src/Settings.js" />
         <option value="$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js" />
         <option value="$PROJECT_DIR$/media/login/src/store/reducer.js" />
         <option value="$PROJECT_DIR$/media/login/package.json" />
+        <option value="$PROJECT_DIR$/media/login/src/pages/App.js" />
+        <option value="$PROJECT_DIR$/media/login/src/pages/Common/Utils.js" />
+        <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" />
       </list>
     </option>
   </component>
@@ -245,22 +229,26 @@
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -402,7 +390,7 @@
       <workItem from="1551438488342" duration="9370000" />
       <workItem from="1551484056495" duration="32947000" />
       <workItem from="1551537841037" duration="604000" />
-      <workItem from="1551538682672" duration="2301000" />
+      <workItem from="1551538682672" duration="3112000" />
     </task>
     <task id="LOCAL-00001" summary="runscript">
       <created>1551261386284</created>
@@ -705,11 +693,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551536997929</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="login begin">
+      <created>1551542911093</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1551542911093</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93423000" />
+    <option name="totallyTimeSpent" value="94234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -742,7 +737,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="continue" />
     <MESSAGE value="can not use model in celery task" />
     <MESSAGE value="useing lower version redis pip" />
     <MESSAGE value="celery job work" />
@@ -767,7 +761,8 @@
     <MESSAGE value="code export task ready to test" />
     <MESSAGE value="code export task finished" />
     <MESSAGE value="work done" />
-    <option name="LAST_COMMIT_MESSAGE" value="work done" />
+    <MESSAGE value="login begin" />
+    <option name="LAST_COMMIT_MESSAGE" value="login begin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -791,8 +786,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/store/UserReducer.js" />
-    <entry file="file://$PROJECT_DIR$/media/manager/src/store/reducer.js" />
     <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/store/constants.js" />
     <entry file="file://$PROJECT_DIR$/media/manager/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -1108,51 +1101,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/pages/AppLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/Settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1166,16 +1120,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/store/reducer.js">
+    <entry file="file://$PROJECT_DIR$/media/login/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="729">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1186,10 +1134,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/package.json">
+    <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/pages/AppLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="378">
+          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/Settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/pages/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
