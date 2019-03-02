@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="work done">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/Settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/pages/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/pages/AppLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/pages/Common/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/pages/Common/store/UserActionCreator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/pages/Common/store/UserReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/setupProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/login/src/store/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,19 +34,72 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/media/login/src/pages/AppLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/login/src/Settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/login/src/store/reducer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/media/.gitignore">
+        <entry file="file://$PROJECT_DIR$/media/login/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="324">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/manager/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="28" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,13 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/media/manager/src/Common/index.css" />
-        <option value="$PROJECT_DIR$/media/manager/src/Common/SideBar.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/Common/PageHeader.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/Common/PageFooter.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/Common/LocationIndicator.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/Common/store/constants.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/Common/store/LocationIndicatorActionCreator.js" />
         <option value="$PROJECT_DIR$/media/manager/src/Common/store/LocationIndicatorReducer.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheating/index.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/App.js" />
@@ -133,6 +191,13 @@
         <option value="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/media/.gitignore" />
+        <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" />
+        <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js" />
+        <option value="$PROJECT_DIR$/media/login/src/pages/AppLayout.js" />
+        <option value="$PROJECT_DIR$/media/login/src/Settings.js" />
+        <option value="$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js" />
+        <option value="$PROJECT_DIR$/media/login/src/store/reducer.js" />
+        <option value="$PROJECT_DIR$/media/login/package.json" />
       </list>
     </option>
   </component>
@@ -163,6 +228,40 @@
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -181,18 +280,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\ACMTOOLS\MAIN\tasks" />
-      <recent name="D:\Projects\ACMTOOLS\media\manager\src\pages\CodeExportPage" />
-      <recent name="D:\Projects\ACMTOOLS\MAIN" />
-      <recent name="D:\Projects\ACMTOOLS" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\ACMTOOLS\media\manager\src\pages" />
       <recent name="D:\Projects\ACMTOOLS\media" />
       <recent name="D:\Projects\ACMTOOLS" />
       <recent name="D:\Projects\ACMTOOLS\MAIN" />
       <recent name="D:\Projects\ACMTOOLS\scripts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\ACMTOOLS\media\login\src" />
+      <recent name="D:\Projects\ACMTOOLS\MAIN\tasks" />
+      <recent name="D:\Projects\ACMTOOLS\media\manager\src\pages\CodeExportPage" />
+      <recent name="D:\Projects\ACMTOOLS\MAIN" />
+      <recent name="D:\Projects\ACMTOOLS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,7 +402,7 @@
       <workItem from="1551438488342" duration="9370000" />
       <workItem from="1551484056495" duration="32947000" />
       <workItem from="1551537841037" duration="604000" />
-      <workItem from="1551538682672" duration="48000" />
+      <workItem from="1551538682672" duration="2301000" />
     </task>
     <task id="LOCAL-00001" summary="runscript">
       <created>1551261386284</created>
@@ -609,7 +709,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91170000" />
+    <option name="totallyTimeSpent" value="93423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -629,7 +729,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21041214" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21041214" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -691,36 +791,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MAIN/paginations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="4" selection-start-line="17" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/rest_framework/serializers.py" />
-    <entry file="file://$PROJECT_DIR$/media/manager/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/index.css" />
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/LocationIndicator.js" />
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/store/LocationIndicatorActionCreator.js" />
-    <entry file="file://$PROJECT_DIR$/media/manager/src/store/index.js" />
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/App.js" />
     <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/store/UserReducer.js" />
     <entry file="file://$PROJECT_DIR$/media/manager/src/store/reducer.js" />
     <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/store/constants.js" />
@@ -817,13 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1018,17 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.log" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -1040,6 +1092,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/pages/AppLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/Settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/LocationIndicator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/manager/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
