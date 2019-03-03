@@ -19,7 +19,7 @@
   git: 
     repo: http://gitlab.heyuantao.cn/heyuantao/ACMTOOLS.git
     dest: /app/ACMTOOLS/                                                 #gitlab will only clone file in project
-    version: r1
+    version: master
   sudo: yes
 
 
