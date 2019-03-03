@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="" />
+    <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/prepare.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Script/prepare.sh" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +19,17 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Script/prepare.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/media/manager/src/pages/AppLayout.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/index.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/PersonalPage/index.js" />
         <option value="$PROJECT_DIR$/MAIN/templates/testLoginAndLogout.html" />
@@ -113,6 +125,7 @@
         <option value="$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2" />
         <option value="$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2" />
         <option value="$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/Script/prepare.sh" />
       </list>
     </option>
   </component>
@@ -141,35 +154,6 @@
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
               <item name="Script" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisor" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisor" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +299,7 @@
       <workItem from="1551538682672" duration="3180000" />
       <workItem from="1551572137939" duration="6184000" />
       <workItem from="1551582066648" duration="1368000" />
-      <workItem from="1551599791311" duration="3895000" />
+      <workItem from="1551599791311" duration="4510000" />
     </task>
     <task id="LOCAL-00004" summary="continue">
       <created>1551266495616</created>
@@ -664,10 +648,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105749000" />
+    <option name="totallyTimeSpent" value="106364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12691997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1084,9 +1069,6 @@
     <entry file="file://$PROJECT_DIR$/Script/hosts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script/prepare.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Script/install.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1142,6 +1124,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/prepare.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
         </state>
       </provider>
     </entry>

@@ -21,6 +21,6 @@ sudo passwd root
 echo "Restart SSHd"
 service sshd restart
 
-git clone http://gitlab.heyuantao.cn/heyuantao/ExaminationRegistrationSystem.git
+git clone http://gitlab.heyuantao.cn/heyuantao/ACMTOOLS.git
 
 echo "Plase Reboot The System and Run Ansible Playbook !"
