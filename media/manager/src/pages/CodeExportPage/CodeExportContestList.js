@@ -113,7 +113,7 @@ class CodeExportContestList extends React.Component {
             <div>
                 <Row type="flex" justify="space-between" align="middle" >
                     <Col>
-                        <h2>代码导出管理</h2>
+                        <h2>考试代码导出</h2>
                     </Col>
                     <Col>
                         <Button onClick={() => { this.handleFetchTableData() }} type="primary" >刷新</Button>

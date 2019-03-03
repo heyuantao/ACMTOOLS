@@ -107,7 +107,7 @@ class AntiCheatingContestList extends React.Component {
             <div>
                 <Row type="flex" justify="space-between" align="middle" >
                     <Col>
-                        <h2>考试提交数据分析</h2>
+                        <h2>考试替考分析</h2>
                     </Col>
                     <Col>
                         <Button onClick={() => { this.handleFetchTableData() }} type="primary" >刷新</Button>
