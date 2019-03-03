@@ -93,10 +93,10 @@ DATABASES = {
     },
     'hustoj': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'jol_backup',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': 'jol',
+        'USER': 'readonly',
+        'PASSWORD': '123',
+        'HOST': 'acm.syslab.org',
         'PORT': '3306',
     }
 }

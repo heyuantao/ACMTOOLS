@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Script/roles/redis/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACMTOOLS/celeryconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACMTOOLS/celeryconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACMTOOLS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACMTOOLS/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Script/install.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Script/install.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Script/roles/app/tasks/main.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Script/install.yml">
+        <entry file="file://$PROJECT_DIR$/ACMTOOLS/celeryconfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="250">
+              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,9 +81,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/media/manager/src/pages/PersonalPage/index.js" />
         <option value="$PROJECT_DIR$/MAIN/templates/testLoginAndLogout.html" />
-        <option value="$PROJECT_DIR$/ACMTOOLS/settings.py" />
         <option value="$PROJECT_DIR$/media/manager/src/setupProxy.js" />
         <option value="$PROJECT_DIR$/media/manager/package.json" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/OneAccountWithMultiIP.js" />
@@ -122,7 +117,6 @@
         <option value="$PROJECT_DIR$/MAIN/models.py" />
         <option value="$PROJECT_DIR$/MAIN/tasks/ClearPending.py" />
         <option value="$PROJECT_DIR$/ACMTOOLS/urls.py" />
-        <option value="$PROJECT_DIR$/ACMTOOLS/celeryconfig.py" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/AntiCheatingContestList.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js" />
         <option value="$PROJECT_DIR$/media/.gitignore" />
@@ -134,7 +128,10 @@
         <option value="$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml" />
         <option value="$PROJECT_DIR$/Script/prepare.sh" />
         <option value="$PROJECT_DIR$/Script/roles/app/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/ACMTOOLS/settings.py" />
+        <option value="$PROJECT_DIR$/Script/roles/redis/tasks/main.yml" />
         <option value="$PROJECT_DIR$/Script/install.yml" />
+        <option value="$PROJECT_DIR$/ACMTOOLS/celeryconfig.py" />
       </list>
     </option>
   </component>
@@ -162,50 +159,7 @@
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,11 +181,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\ACMTOOLS\Script\roles" />
       <recent name="D:\Projects\ACMTOOLS\Script\roles\supervisor\templates" />
       <recent name="D:\Projects\ACMTOOLS\media\login\src" />
       <recent name="D:\Projects\ACMTOOLS\MAIN\tasks" />
       <recent name="D:\Projects\ACMTOOLS\media\manager\src\pages\CodeExportPage" />
-      <recent name="D:\Projects\ACMTOOLS\MAIN" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\ACMTOOLS\media\export" />
@@ -351,14 +305,7 @@
       <workItem from="1551538682672" duration="3180000" />
       <workItem from="1551572137939" duration="6184000" />
       <workItem from="1551582066648" duration="1368000" />
-      <workItem from="1551599791311" duration="8553000" />
-    </task>
-    <task id="LOCAL-00007" summary="continue">
-      <created>1551275544674</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1551275544674</updated>
+      <workItem from="1551599791311" duration="10330000" />
     </task>
     <task id="LOCAL-00008" summary="continue">
       <created>1551279369019</created>
@@ -696,11 +643,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551617364723</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="title for acmtools">
+      <created>1551623601814</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1551623601814</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110407000" />
+    <option name="totallyTimeSpent" value="112184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -733,7 +687,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change task" />
     <MESSAGE value="go to sleep" />
     <MESSAGE value="manager ui begin" />
     <MESSAGE value="manager ui appear" />
@@ -758,7 +711,8 @@
     <MESSAGE value="ansible script" />
     <MESSAGE value="begin to test ansible" />
     <MESSAGE value="git from gitlab" />
-    <option name="LAST_COMMIT_MESSAGE" value="git from gitlab" />
+    <MESSAGE value="title for acmtools" />
+    <option name="LAST_COMMIT_MESSAGE" value="title for acmtools" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -782,15 +736,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/login/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/Utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1050,13 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACMTOOLS/celeryconfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/AntiCheatingContestList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2225">
@@ -1095,13 +1033,6 @@
           <folding>
             <element signature="e#0#65#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1685">
-          <caret line="150" column="10" selection-start-line="150" selection-end-line="150" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1164,24 +1095,48 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/common/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Script/roles/app/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="225">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Script/install.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        <state relative-caret-position="250">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/common/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/redis/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACMTOOLS/celeryconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

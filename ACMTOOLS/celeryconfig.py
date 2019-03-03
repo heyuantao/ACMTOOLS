@@ -1,14 +1,16 @@
 import djcelery
+from celery import Celery, platforms
 
 djcelery.setup_loader()
-
-
 
 CELERY_IMPORTS = (
     'MAIN.tasks.AntiCheating',
     'MAIN.tasks.CodeExport',
     'MAIN.tasks.ClearPending'
 )
+
+#this could enable celery run in root mode under supervisor
+platforms.C_FORCE_ROOT = True
 
 CELERYD_FORCE_EXECV =True
 

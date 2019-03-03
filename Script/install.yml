@@ -6,5 +6,6 @@
     - common
     - nginx
     - mysql
+    - redis
     - app
     - supervisor

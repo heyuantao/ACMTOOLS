@@ -1,0 +1,23 @@
+
+- name: Install the Redis Server
+  apt: 
+    name: redis-server
+    update_cache: yes
+  sudo: yes
+
+
+- name: Restart the Redis
+  service:
+   name: redis
+   state: restarted
+  sudo: yes
+
+
+
+- name: Restart the MySQL Again
+  service:
+   name: mysql
+   state: restarted
+  sudo: yes
+
+
