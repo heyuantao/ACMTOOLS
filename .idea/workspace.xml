@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/media/export/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN/management/commands/createuser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,27 +21,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Script/roles/nginx/tasks/main.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-594" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="281">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -93,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.json" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/AppLayout.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/index.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/PersonalPage/index.js" />
@@ -142,8 +142,9 @@
         <option value="$PROJECT_DIR$/MAIN/management/commands/createuser.py" />
         <option value="$PROJECT_DIR$/Script/roles/app/tasks/main.yml" />
         <option value="$PROJECT_DIR$/Script/roles/nginx/templates/default.j2" />
-        <option value="$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml" />
         <option value="$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2" />
+        <option value="$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2" />
+        <option value="$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml" />
       </list>
     </option>
   </component>
@@ -222,11 +223,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\ACMTOOLS\Script\roles\supervisor\templates" />
       <recent name="D:\Projects\ACMTOOLS\media\login\src" />
       <recent name="D:\Projects\ACMTOOLS\MAIN\tasks" />
       <recent name="D:\Projects\ACMTOOLS\media\manager\src\pages\CodeExportPage" />
       <recent name="D:\Projects\ACMTOOLS\MAIN" />
-      <recent name="D:\Projects\ACMTOOLS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\ACMTOOLS\media\export" />
@@ -346,14 +347,7 @@
       <workItem from="1551538682672" duration="3180000" />
       <workItem from="1551572137939" duration="6184000" />
       <workItem from="1551582066648" duration="1368000" />
-      <workItem from="1551599791311" duration="2661000" />
-    </task>
-    <task id="LOCAL-00002" summary="continue">
-      <created>1551263090100</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1551263090100</updated>
+      <workItem from="1551599791311" duration="3210000" />
     </task>
     <task id="LOCAL-00003" summary="continue">
       <created>1551266090304</created>
@@ -691,17 +685,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551582885685</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="ansible script">
+      <created>1551602663878</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1551602663878</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104515000" />
+    <option name="totallyTimeSpent" value="105064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18674211" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12691997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -728,7 +729,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="contest id show" />
     <MESSAGE value="hustoj user api" />
     <MESSAGE value="task job" />
     <MESSAGE value="change task" />
@@ -753,7 +753,8 @@
     <MESSAGE value="ready to deploy" />
     <MESSAGE value="task pending to error,might has error" />
     <MESSAGE value="setup run code" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup run code" />
+    <MESSAGE value="ansible script" />
+    <option name="LAST_COMMIT_MESSAGE" value="ansible script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -777,7 +778,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/LocationIndicator.js" />
     <entry file="file://$PROJECT_DIR$/media/login/src/store/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1157,17 +1157,24 @@
         <state relative-caret-position="-594" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml">
+    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="75">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2">
+    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="50">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>

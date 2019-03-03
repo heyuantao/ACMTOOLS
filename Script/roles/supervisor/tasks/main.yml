@@ -6,13 +6,19 @@
   sudo: yes
 
 
-- name: Create app supervisor conf file
+- name: Create web supervisor conf file
   template:
     src:  acmtools.conf.j2
     dest: /etc/supervisor/conf.d/acmtools.conf
     mode: 0644
   sudo: yes
 
+- name: Create worker supervisor conf file
+  template:
+    src:  worker.conf.j2
+    dest: /etc/supervisor/conf.d/worker.conf
+    mode: 0644
+  sudo: yes
 
 - name: Restart supervisor
   service:

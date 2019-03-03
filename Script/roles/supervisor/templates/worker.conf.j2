@@ -1,0 +1,6 @@
+[program:worker]
+command = /app/virtualenv/bin/python manage.py celery worker -l INFO
+directory = /app/ACMTOOLS/
+autorestart = true
+stdout_logfile = /var/log/supervisor/worker_out.log
+stderr_logfile = /var/log/supervisor/worker_err.log
