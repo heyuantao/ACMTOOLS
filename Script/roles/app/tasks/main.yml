@@ -17,7 +17,7 @@
 
 - name: Clone the app repo
   git: 
-    repo: http://github.com/heyuantao/ACMTOOLS.git
+    repo: http://gitlab.heyuantao.cn/heyuantao/ACMTOOLS.git
     dest: /app/ACMTOOLS/                                                 #gitlab will only clone file in project
     version: r1
   sudo: yes
