@@ -73,3 +73,25 @@ class AntiCheatingMultiAccountListAPIView(generics.ListAPIView):
     def list(self,request,*args,**kwargs):
         self.contest_id = kwargs['contest_id'];
         return  super().list(request,*args,**kwargs)
+
+
+class IndexView(View):
+    #template = 'index.html'
+    template = "login/build/index.html"
+    def get(self, request):
+        pageContext = request.GET.dict()
+        return render(request, self.template, pageContext)
+
+class LoginView(View):
+    #template = 'loginandregistration.html'
+    template = "login/build/index.html"
+    def get(self, request):
+        pageContext = request.GET.dict()
+        return render(request, self.template, pageContext)
+
+class ManagerView(View):
+    #template = 'manager.html'
+    template = "manager/build/index.html"
+    def get(self, request):
+        pageContext = request.GET.dict()
+        return render(request, self.template, pageContext)
