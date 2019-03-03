@@ -13,7 +13,7 @@ MANAGER_MEDIA_URL = "manager/media/"
 
 urlpatterns = [
     url(r'^$', IndexView.as_view(), name='index'),
-    url(r'loginandregistration$', LoginView.as_view(), name='login'),
+    url(r'login$', LoginView.as_view(), name='login'),
     url(r'manager$', ManagerView.as_view(), name='manager'),
 
     url(r'testlogin$', TestLoginView.as_view(), name='testlogin'),

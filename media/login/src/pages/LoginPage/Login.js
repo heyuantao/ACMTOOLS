@@ -21,9 +21,9 @@ class Login extends React.Component {
         if (this.validateFormField() < 0) {
             return
         }
-        req.post(Settings.loginAPIURL, this.state.formData.toJS()).then(function (response) {
-            if (response.data.dashboardurl != undefined) {
-                window.location.href = response.data.dashboardurl;
+        req.post(Settings.login_api_url, this.state.formData.toJS()).then(function (response) {
+            if (response.data.dashboard_url != undefined) {
+                window.location.href = response.data.dashboard_url;
             }
         }.bind(this)).catch(function (error) {
         }.bind(this))

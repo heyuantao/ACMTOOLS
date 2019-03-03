@@ -8,11 +8,14 @@ from API.views import UserAPIView
 from HUSTOJ.views import AntiCheatingTaskContestListAPIView,AntiCheatingTaskContestRetriveUpdateAPIView
 from MAIN.views import AntiCheatingMultiIPListAPIView,AntiCheatingMultiAccountListAPIView
 from HUSTOJ.views import CodeExportTaskContestListAPIView,CodeExportTaskContestRetriveUpdateAPIView,CodeExportZipFileDownloadView
+from API.views import LoginAPIView,LogoutAPIView
 
 urlpatterns = [
     #url(r'^v1/contest/$', ContestListAPIView.as_view()),
     #url(r'^v1/user/$', HUSTOJUserListAPIView.as_view()),
     url(r'^v1/user/', UserAPIView.as_view()),
+    url(r'^v1/login/', LoginAPIView.as_view()),
+    url(r'^v1/logout/', LogoutAPIView.as_view()),
 
     url(r'^v1/anti_cheating_contest/(?P<contest_id>\d+)/multiip/', AntiCheatingMultiIPListAPIView.as_view()),
     url(r'^v1/anti_cheating_contest/(?P<contest_id>\d+)/multiaccount/', AntiCheatingMultiAccountListAPIView.as_view()),

@@ -13,11 +13,11 @@ req.interceptors.response.use(
     function(error){
         let response = error.response;
         if(response){
-            if( (response.status!==302)&&(response.data!==undefined)&&(response.data.errormessage!==undefined)){
-                message.error(response.data.errormessage)
+            if( (response.status!==302)&&(response.data!==undefined)&&(response.data.error_message!==undefined)){
+                message.error(response.data.error_message)
             }
-            if( (response.status===302)&&(response.data!==undefined)&&(response.data.redirecturl!==undefined)  ){
-                window.location.href=response.data.redirecturl;
+            if( (response.status===302)&&(response.data!==undefined)&&(response.data.redirect_url!==undefined)  ){
+                window.location.href=response.data.redirect_url;
             }
             if( response.status >=500 ){
                 message.error("请检查您的网络连接")
@@ -30,4 +30,5 @@ req.interceptors.response.use(
 export default{
     request:req,
     user_api_url:"/api/v1/user/",
+    login_api_url:"/api/v1/login/"
 }

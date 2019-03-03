@@ -26,6 +26,11 @@ class UserSerializer(serializers.Serializer):
             userInstance.set_password(passwordString)
             userInstance.save()
         return instance
+    def validate(self, data):
+        passwordString = self.initial_data.get("password", "")
+        data['password'] = passwordString
+        return data
+
 
 '''
 class TaskTrackingSerializer(Serializer):

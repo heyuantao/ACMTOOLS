@@ -4,6 +4,7 @@ import Settings from "../../../Settings";
 
 const req = Settings.request;
 const user_api_url = Settings.user_api_url;
+const logout_api_url = Settings.logout_api_url;
 
 export const getUser = () => {
     return (dispatch)=>{
@@ -21,7 +22,10 @@ export const getUser = () => {
 
 export const logout = () => {
     return (dispatch) => {
-        let action = {type:actionType.USER_LOGOUT,playload:fromJS({})};
-        dispatch(action);
+        req.post(logout_api_url,{}).then((response)=>{
+            let action = {type:actionType.USER_LOGOUT,playload:fromJS({})};
+            dispatch(action);
+        }).catch((error)=>{
+        })
     }
 }

@@ -7,7 +7,6 @@ const user_api_url = Settings.user_api_url;
 
 export const getUser = () => {
     return (dispatch)=>{
-
         let action = {type:actionType.USER_FETCHING,playload:fromJS({})};
         dispatch(action);
         req.get(user_api_url,{}).then((response)=>{
