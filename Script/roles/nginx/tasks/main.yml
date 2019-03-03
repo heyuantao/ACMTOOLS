@@ -1,0 +1,34 @@
+
+- name: Install the nginx
+  apt: 
+    name: nginx
+    update_cache: yes
+  sudo: yes
+
+- name: Back the old nginx default
+  copy:
+    src: /etc/nginx/sites-available/default
+    dest: /etc/nginx/sites-available/backupdefault
+    owner: root
+    group: root
+    mode: 0644
+  sudo: yes
+
+- name: Write the Nginx configuration file
+  template: src=default.j2 dest=/etc/nginx/sites-available/default
+  sudo: yes
+
+
+- name: Change the Nginx configuration file permission
+  file:
+    path: /etc/nginx/sites-available/default
+    owner: root
+    group: root
+    mode: 0644
+  sudo: yes
+
+- name: Restart the nginx 
+  service:
+   name: nginx
+   state: restarted
+  sudo: yes

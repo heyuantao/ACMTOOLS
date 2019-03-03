@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/AntiCheatingContestList.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/AntiCheatingContestList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/media/export/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN/management/commands/createuser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/run.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,29 +23,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/AntiCheatingContestList.js">
+        <entry file="file://$PROJECT_DIR$/Script/roles/nginx/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="n#!!block;n#componentWillReceiveProps#0;n#AntiCheatingContestList#0" />
-                <element signature="n#!!block;n#fetchTableListData#0;n#AntiCheatingContestList#0" />
-                <element signature="n#!!block;n#componentDidMount#0;n#AntiCheatingContestList#0" />
-                <element signature="n#!!block;n#handleTableChange#0;n#AntiCheatingContestList#0" />
-              </folding>
+            <state relative-caret-position="-594" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js">
+        <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="115" column="34" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -95,12 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/media/manager/src/pages/Common/store/constants.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/index.css" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/Common/store/LocationIndicatorReducer.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/ContestList.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/AnalyzeResult/index.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/index.js" />
         <option value="$PROJECT_DIR$/test.json" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/AppLayout.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/index.js" />
@@ -116,7 +108,6 @@
         <option value="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" />
         <option value="$PROJECT_DIR$/HUSTOJ/views.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/media/.gitignore" />
         <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js" />
         <option value="$PROJECT_DIR$/media/login/src/pages/AppLayout.js" />
         <option value="$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js" />
@@ -146,13 +137,20 @@
         <option value="$PROJECT_DIR$/ACMTOOLS/celeryconfig.py" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/AntiCheatingContestList.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js" />
+        <option value="$PROJECT_DIR$/media/.gitignore" />
+        <option value="$PROJECT_DIR$/media/export/.gitignore" />
+        <option value="$PROJECT_DIR$/MAIN/management/commands/createuser.py" />
+        <option value="$PROJECT_DIR$/Script/roles/app/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/Script/roles/nginx/templates/default.j2" />
+        <option value="$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1937" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -163,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,51 +171,42 @@
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="Script" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Script" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Script" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="supervisor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Script" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="supervisor" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="AntiCheatingPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="CodeExportPage" type="462c0819:PsiDirectoryNode" />
+              <item name="Script" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="supervisor" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,19 +221,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\ACMTOOLS\media\manager\src\pages" />
-      <recent name="D:\Projects\ACMTOOLS\media" />
-      <recent name="D:\Projects\ACMTOOLS" />
-      <recent name="D:\Projects\ACMTOOLS\MAIN" />
-      <recent name="D:\Projects\ACMTOOLS\scripts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\ACMTOOLS\media\login\src" />
       <recent name="D:\Projects\ACMTOOLS\MAIN\tasks" />
       <recent name="D:\Projects\ACMTOOLS\media\manager\src\pages\CodeExportPage" />
       <recent name="D:\Projects\ACMTOOLS\MAIN" />
       <recent name="D:\Projects\ACMTOOLS" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\ACMTOOLS\media\export" />
+      <recent name="D:\Projects\ACMTOOLS\media\manager\src\pages" />
+      <recent name="D:\Projects\ACMTOOLS\media" />
+      <recent name="D:\Projects\ACMTOOLS" />
+      <recent name="D:\Projects\ACMTOOLS\MAIN" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -358,6 +346,7 @@
       <workItem from="1551538682672" duration="3180000" />
       <workItem from="1551572137939" duration="6184000" />
       <workItem from="1551582066648" duration="1368000" />
+      <workItem from="1551599791311" duration="2661000" />
     </task>
     <task id="LOCAL-00002" summary="continue">
       <created>1551263090100</created>
@@ -706,18 +695,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101854000" />
+    <option name="totallyTimeSpent" value="104515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24413647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18674211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18546638" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18472469" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.324295" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -726,7 +715,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21041214" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3285968" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -788,129 +777,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/AppLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/PersonalPage/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="n#!!block;n#componentDidMount#0;n#PersonalPage#0" />
-            <element signature="n#!!block;n#fetchData#0;n#PersonalPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN/templates/testLoginAndLogout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="3" selection-start-line="3" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/OneIPWithMultiAccount.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="59" column="77" selection-start-line="59" selection-start-column="77" selection-end-line="59" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/OneAccountWithMultiIP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-751">
-          <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HUSTOJ/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#468#507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="150" column="10" selection-start-line="150" selection-end-line="150" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HUSTOJ/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-          <folding>
-            <element signature="e#24#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/setupProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/LocationIndicator.js" />
     <entry file="file://$PROJECT_DIR$/media/login/src/store/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1199,7 +1065,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/AntiCheatingContestList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="2225">
           <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -1218,6 +1084,90 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/export/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAIN/management/commands/createuser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1685">
+          <caret line="150" column="10" selection-start-line="150" selection-end-line="150" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/run.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/hosts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/prepare.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/install.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/app/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="88" column="96" selection-start-line="88" selection-start-column="96" selection-end-line="88" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/common/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1644" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/mysql/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/mysql/templates/mysqld.cnf.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/nginx/templates/default.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/nginx/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>

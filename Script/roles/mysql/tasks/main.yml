@@ -1,0 +1,48 @@
+
+- name: Install the MySQL
+  apt: 
+    name: mysql-server
+    update_cache: yes
+  sudo: yes
+
+- name: Back the old MySQL my.cnf
+  copy:
+    src:  /etc/mysql/mysql.conf.d/mysqld.cnf
+    dest: /etc/mysql/mysql.conf.d/back_mysqld
+    owner: root
+    group: root
+    mode: 0644
+  sudo: yes
+
+- name: Write the MySQL configuration file
+  template: 
+     src: mysqld.cnf.j2 
+     dest: /etc/mysql/mysql.conf.d/mysqld.cnf
+     owner: root
+     group: root
+     mode: 0644
+  sudo: yes
+
+
+- name: Restart the MySQL 
+  service:
+   name: mysql
+   state: restarted
+  sudo: yes
+
+#- name: Update MySQL root Password
+#  mysql_user:
+#    name: "root"
+#    host: "127.0.0.1"
+#    password: "19831122"
+#    priv: "*.*:ALL,GRANT"
+#  sudo: yes
+
+
+- name: Restart the MySQL Again
+  service:
+   name: mysql
+   state: restarted
+  sudo: yes
+
+

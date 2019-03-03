@@ -1,0 +1,98 @@
+- name: Create app directory
+  file:
+    path: /app/ACMTOOLS/
+    state: directory
+    owner: root
+    group: root
+    mode: 0777  
+  sudo: yes
+
+
+#- name: Clone the app repo
+#  git: 
+#    repo: https://github.com/heyuantao/ExaminationRegistrationSystem.git
+#    dest: /app/
+#    version: r1
+#  sudo: yes
+
+- name: Clone the app repo
+  git: 
+    repo: http://github.com/heyuantao/ACMTOOLS.git
+    dest: /app/ACMTOOLS/                                                 #gitlab will only clone file in project
+    version: r1
+  sudo: yes
+
+
+- name: "Create app virtualenv"
+  command: virtualenv -p /usr/bin/python3 /app/virtualenv
+  sudo: yes
+
+
+- name: Initiate package in virtualenv
+  pip:
+     virtualenv: /app/virtualenv
+     requirements: /app/ACMTOOLS/requirements.txt
+     extra_args:  -i https://pypi.douban.com/simple
+  sudo: yes
+#- name: Install Requirement
+#  pip:
+#    chdir: "/app/ExaminationRegistrationSystem/"
+#    requirements: "requirements.txt"
+#    extra_args: "-i https://pypi.douban.com/simple"
+#  sudo: yes
+
+- name: Install js modules for media/manager
+  command: yarn install
+  args:
+   chdir: /app/ACMTOOLS/media/manager/
+  sudo: yes
+
+- name: Install js modules for media/login
+  command: yarn install
+  args:
+   chdir: /app/ACMTOOLS/media/login/
+  sudo: yes
+
+
+- name: Build react file for media/manager
+  command: yarn run build
+  args:
+   chdir: /app/ACMTOOLS/media/manager/
+  sudo: yes
+
+- name: Build react file for media/login
+  command: yarn run build
+  args:
+   chdir: /app/ACMTOOLS/media/login/
+  sudo: yes
+
+- name: Create database App
+  mysql_db:
+    name: acmtools
+    state: present
+    login_user: root
+    login_password: ''
+
+- name: Makemigrations for app
+  command: /app/virtualenv/bin/python manage.py makemigrations
+  args:
+    chdir: /app/ACMTOOLS/
+  sudo: yes
+
+- name: Make migrate for app
+  command: /app/virtualenv/bin/python manage.py migrate
+  args:
+    chdir: /app/ACMTOOLS/
+  sudo: yes
+
+- name: Create Superuser
+  command: /app/virtualenv/bin/python  manage.py createuser -u admin@example.com -p example.com  -t admin
+  args:
+    chdir: /app/ACMTOOLS/
+  sudo: yes
+
+#- name: Load excel data
+#  command: python manage.py  importNewData ./data/newData.xlsx
+#  args:
+#    chdir: /app/PSEMS/
+

@@ -1,0 +1,10 @@
+- name: Install ExaminationRegistrationSystem on Ubuntu 16.04
+  hosts: all
+  remote_user: root
+
+  roles:
+    - common
+    - nginx
+    - mysql
+    - app
+    - supervisor
