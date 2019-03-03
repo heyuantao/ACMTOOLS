@@ -20,9 +20,15 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^main/', include('MAIN.urls')),
     url(r'^api/', include('API.urls')),
     url(r'^$', RedirectView.as_view(url="/main")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+#clear pending task at setup
+from MAIN.tasks.ClearPending import ClearPendingTask
+print("Run ClearPendingTask !")
+ClearPendingTask.delay()

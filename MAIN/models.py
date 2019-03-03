@@ -1,4 +1,5 @@
 from django.db import models
+#from celery.signals import celeryd_init
 
 # Create your models here.
 

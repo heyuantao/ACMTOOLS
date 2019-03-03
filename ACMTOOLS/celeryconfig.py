@@ -7,6 +7,7 @@ djcelery.setup_loader()
 CELERY_IMPORTS = (
     'MAIN.tasks.AntiCheating',
     'MAIN.tasks.CodeExport',
+    'MAIN.tasks.ClearPending'
 )
 
 CELERYD_FORCE_EXECV =True
