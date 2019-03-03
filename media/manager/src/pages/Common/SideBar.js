@@ -20,7 +20,7 @@ class SideBar extends React.Component {
             if(location.action==="PUSH"){
                 if(location.pathname.includes("/anticheating/contestsubmit")){
                     that.setState({selectedKeys:["11"]});
-                    this.props.changeLocation(fromJS(["作弊分析","代码提交分析"]));
+                    this.props.changeLocation(fromJS(["作弊分析","替考分析"]));
                     return;
                 }
                 if(location.pathname.includes("/codeexport")){
@@ -47,7 +47,7 @@ class SideBar extends React.Component {
                     <SubMenu key="sub1" title={<span><Icon type="pie-chart" /><span>作弊分析</span></span>}>
                         <Menu.Item key="11">
                             <Link to="/anticheating/contestsubmit">
-                                <Icon type="schedule" /><span>提交记录分析</span>
+                                <Icon type="schedule" /><span>替考分析</span>
                             </Link>
                         </Menu.Item>
                     </SubMenu>

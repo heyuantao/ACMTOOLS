@@ -58,7 +58,7 @@ class AntiCheatingAnalyzeResultPage extends React.Component{
 const mapDispatchToProps = (dispatch) => {
     return {
         showLocation(locationList){
-            dispatch(LocationActionCreator.changeLocation(fromJS(["作弊分析","代码提交分析","分析结果"])))
+            dispatch(LocationActionCreator.changeLocation(fromJS(["作弊分析","替考分析","分析结果"])))
         }
     }
 }

@@ -14,7 +14,7 @@ class Login extends React.Component {
         super(props);
         this.state = {
             formData:fromJS({}),
-
+            formFieldValidateInfo:"",
         }
     }
     handleLoginSubmit() {

@@ -19,11 +19,11 @@ class PageHeader extends React.Component {
         return (
             <Header style={{ background: '#fff'}} >
                 <Row type="flex" align="middle" justify="end">
-                    <Col>
-                        { (user.get("is_superuser"))&&<h3>管理员</h3> }
-                    </Col>
                     <Col style={{marginRight:"10px"}}>
                         <h3>{user.get("username")}</h3>
+                    </Col>
+                    <Col>
+                        { (user.get("is_superuser"))&&<h3>(管理员)</h3> }
                     </Col>
                     <Col>
                         <Button style={{marginLeft:"50px"}} onClick={()=>{this.handleLogout()}} type="primary">注销</Button>
