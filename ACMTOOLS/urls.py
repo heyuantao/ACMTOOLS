@@ -29,6 +29,6 @@ urlpatterns = [
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 #clear pending task at setup
-from MAIN.tasks.ClearPending import ClearPendingTask
-print("Run ClearPendingTask !")
-ClearPendingTask.delay()
+#from MAIN.tasks.ClearPending import ClearPendingTask
+#print("Run ClearPendingTask !")
+#ClearPendingTask.delay()
