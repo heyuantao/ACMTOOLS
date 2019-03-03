@@ -1,4 +1,4 @@
-- name: Install ExaminationRegistrationSystem on Ubuntu 16.04
+- name: Install ACMTOOLS on Ubuntu 16.04
   hosts: all
   remote_user: root
 
