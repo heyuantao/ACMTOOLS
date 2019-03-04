@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2" beforeDir="false" afterPath="$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Script/readme.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,19 +30,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml">
+        <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            <state relative-caret-position="575">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Script/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Script/roles/nginx/templates/default.j2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="69" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
+            <state relative-caret-position="150">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -94,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HUSTOJ/serializers.py" />
         <option value="$PROJECT_DIR$/MAIN/tasks/AntiCheating.py" />
         <option value="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -123,10 +149,8 @@
         <option value="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js" />
         <option value="$PROJECT_DIR$/media/.gitignore" />
         <option value="$PROJECT_DIR$/media/export/.gitignore" />
-        <option value="$PROJECT_DIR$/Script/roles/nginx/templates/default.j2" />
         <option value="$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2" />
         <option value="$PROJECT_DIR$/Script/prepare.sh" />
-        <option value="$PROJECT_DIR$/ACMTOOLS/settings.py" />
         <option value="$PROJECT_DIR$/Script/install.yml" />
         <option value="$PROJECT_DIR$/ACMTOOLS/celeryconfig.py" />
         <option value="$PROJECT_DIR$/ACMTOOLS/urls.py" />
@@ -145,6 +169,9 @@
         <option value="$PROJECT_DIR$/HUSTOJ/views.py" />
         <option value="$PROJECT_DIR$/API/views.py" />
         <option value="$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2" />
+        <option value="$PROJECT_DIR$/ACMTOOLS/settings.py" />
+        <option value="$PROJECT_DIR$/Script/readme.txt" />
+        <option value="$PROJECT_DIR$/Script/roles/nginx/templates/default.j2" />
       </list>
     </option>
   </component>
@@ -172,6 +199,11 @@
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
               <item name="Script" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,22 +217,14 @@
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
               <item name="Script" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisor" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
               <item name="Script" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisor" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisor" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -348,21 +372,7 @@
       <workItem from="1551572137939" duration="6184000" />
       <workItem from="1551582066648" duration="1368000" />
       <workItem from="1551599791311" duration="10330000" />
-      <workItem from="1551663393674" duration="3387000" />
-    </task>
-    <task id="LOCAL-00014" summary="useing lower version redis pip">
-      <created>1551330640892</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1551330640892</updated>
-    </task>
-    <task id="LOCAL-00015" summary="useing lower version redis pip">
-      <created>1551333279866</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1551333279866</updated>
+      <workItem from="1551663393674" duration="5457000" />
     </task>
     <task id="LOCAL-00016" summary="celery job work">
       <created>1551334023726</created>
@@ -693,11 +703,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551666734928</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="finished">
+      <created>1551666911616</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1551666911616</updated>
+    </task>
+    <task id="LOCAL-00064" summary="debug mode">
+      <created>1551667131977</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1551667131977</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115571000" />
+    <option name="totallyTimeSpent" value="117641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -730,8 +754,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="design ui" />
-    <MESSAGE value="food" />
     <MESSAGE value="beautiful" />
     <MESSAGE value="delete useless code" />
     <MESSAGE value="post calc ok" />
@@ -755,19 +777,11 @@
     <MESSAGE value="set permission" />
     <MESSAGE value="api permission tset good" />
     <MESSAGE value="ready to test again" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready to test again" />
+    <MESSAGE value="finished" />
+    <MESSAGE value="debug mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug mode" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/manager/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -951,13 +965,6 @@
         <state relative-caret-position="-2345" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/nginx/templates/default.j2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1102,13 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HUSTOJ/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1139,6 +1139,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Script/install.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1146,17 +1160,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml">
+    <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        <state relative-caret-position="575">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2">
+    <entry file="file://$PROJECT_DIR$/Script/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="69" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
+        <state relative-caret-position="100">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/roles/nginx/templates/default.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
         </state>
       </provider>
     </entry>
