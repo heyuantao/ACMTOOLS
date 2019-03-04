@@ -8,9 +8,10 @@ from celery.task import Task
 from datetime import datetime
 import shutil
 import os
-import time
-import zipfile
+import logging
 import traceback
+
+logger = logging.getLogger(__name__)
 
 DATABSENAME = 'hustoj'
 TOPDIRECTORY = os.path.join(settings.MEDIA_ROOT,'export')
@@ -115,7 +116,8 @@ class CodeExportTask(Task):
         #########################Task run ###############################
         try:
             code_exporter.run()
-        except Exception:
+        except Exception as error:
+            logger.exception(error)
             task_tracking_instance.status = 'error'
             task_tracking_instance.save()
             traceback.print_exc()

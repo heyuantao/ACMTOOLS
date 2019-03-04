@@ -7,6 +7,10 @@ from MAIN.models import MultiAccountAnalyze,MultiAccountAnalyzeRecord
 from MAIN.models import TaskTracking
 from celery.task import Task
 from datetime import datetime
+import logging
+import traceback
+
+logger = logging.getLogger(__name__)
 
 DATABSENAME = 'hustoj'
 
@@ -187,7 +191,8 @@ class AntiCheatingTask(Task):
             checker_second.run()
             checker_task_tracking.status='finished'
             checker_task_tracking.in_date = datetime.now()
-        except Exception:
+        except Exception as error:
+            logger.exception(error)
             checker_task_tracking.status='error'
             checker_task_tracking.in_date = datetime.now()
         finally:
