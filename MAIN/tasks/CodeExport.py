@@ -2,7 +2,7 @@
 import django
 django.setup()
 from django.conf import settings
-from HUSTOJ.models import Solution,Contest,SourceCode,ContestProblem
+from HUSTOJ.models import Solution,Contest,SourceCode,ContestProblem,Users
 from MAIN.models import TaskTracking
 from celery.task import Task
 from datetime import datetime
@@ -22,6 +22,13 @@ class CodeExportExporter:
 
     def __init__(self,contest_id):
         self.contest_id = int(contest_id)
+
+    def getUserNickname(self,user_id):
+        user_query_set = Users.objects.using(DATABSENAME).filter(user_id=user_id)
+        if user_query_set:
+            return user_query_set[0].nick
+        else:
+            return ''
 
     def getContestTitle(self):
         if hasattr(self,'contest_title'):
@@ -84,6 +91,7 @@ class CodeExportExporter:
         for one_user_id in user_id_list:
             one_row_dict_in_result_list = {}
             one_row_dict_in_result_list['user_id']=one_user_id
+            one_row_dict_in_result_list['nick']= self.getUserNickname(one_user_id)
             for one_problem_id in problem_id_list:
                 one_solution_id = self.getSolutionIdInContestByProbmemAndUser(self.contest_id,one_problem_id,one_user_id)
                 one_row_dict_in_result_list[one_problem_id]=one_solution_id
