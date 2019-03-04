@@ -42,6 +42,7 @@ class OneIPWithMultiAccount extends React.Component{
             { title: "考试编号", dataIndex: "contest_id", key: "contest_id" },
             { title: "考试名称", dataIndex: "contest_title", key: "contest_title" },
             { title: "地址", dataIndex: "ip", key: "ip" },
+            { title: "提交次数", dataIndex: "submit_count", key: "submit_count" },
             { title: "账户数量", dataIndex: "account_count", key: "account_count" },
             {
                 title: "状态检查",  key: "summary",

@@ -41,6 +41,7 @@ class OneAccountWithMultiIP extends React.Component{
             { title: "用户登录名", dataIndex: "account_id", key: "account_id" },
             { title: "考试编号", dataIndex: "contest_id", key: "contest_id" },
             { title: "用户昵称", dataIndex: "account_nick", key: "account_nick" },
+            { title: "提交次数", dataIndex: "submit_count", key: "submit_count" },
             { title: "使用IP数量", dataIndex: "ip_count", key: "ip_count" },
             {
                 title: "状态检查",  key: "summary",

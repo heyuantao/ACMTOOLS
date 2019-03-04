@@ -100,6 +100,7 @@ class MultiIPAnalyzeSerializer(Serializer): # for MultiIPAnalyze
         ret = super().to_representation(instance)
         ret['id'] = instance.id
         ret['ip_count'] = instance.records.all().values('ip').distinct().count()
+        ret['submit_count'] = instance.records.all().count()
         multi_ip_analyze_record_query_set = instance.records.all()
         serializer_instance = MultiIPAnalyzeRecordSerializer(multi_ip_analyze_record_query_set,many=True)
         ret['ip_list'] = serializer_instance.data
@@ -124,6 +125,7 @@ class MultiAccountAnalyzeSerializer(Serializer):
         ret = super().to_representation(instance)
         ret['id'] = instance.id
         ret['account_count'] = instance.records.all().values('account_id').distinct().count()
+        ret['submit_count'] = instance.records.all().count()
         multi_account_analyze_record_query_set = instance.records.all()
         serializer_instance = MultiAccountAnalyzeRecordSerializer(multi_account_analyze_record_query_set,many=True)
         ret['account_list'] = serializer_instance.data
