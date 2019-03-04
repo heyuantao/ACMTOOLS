@@ -3,6 +3,7 @@ from rest_framework.views import APIView
 from django.http import HttpResponse
 from rest_framework import generics
 from rest_framework.response import Response
+from rest_framework.permissions import IsAdminUser, IsAuthenticatedOrReadOnly, IsAuthenticated, AllowAny
 from MAIN.paginations import CustomItemPagination
 from MAIN.models import TaskTracking
 from django.conf import settings
@@ -20,12 +21,14 @@ DATABSENAME = 'hustoj'
 # Create your views here.
 
 class AntiCheatingTaskContestListAPIView(generics.ListAPIView):
+    permission_classes = (IsAdminUser,)
     queryset =  Contest.objects.using(DATABSENAME).all()
     serializer_class = AntiCheatingTaskContestSerializer
     pagination_class = CustomItemPagination
 
 #When update ，no change the hustoj db ,only update task record in MAIN models
 class AntiCheatingTaskContestRetriveUpdateAPIView(generics.RetrieveUpdateAPIView):
+    permission_classes = (IsAdminUser,)
     queryset = Contest.objects.using(DATABSENAME).all()
     serializer_class = AntiCheatingTaskContestSerializer
     pagination_class = CustomItemPagination
@@ -57,11 +60,13 @@ class AntiCheatingTaskContestRetriveUpdateAPIView(generics.RetrieveUpdateAPIView
             return Response({}, status=400)
 
 class CodeExportTaskContestListAPIView(generics.ListAPIView):
+    permission_classes = (IsAdminUser,)
     queryset =  Contest.objects.using(DATABSENAME).all()
     serializer_class = CodeExportTaskContestSerializer
     pagination_class = CustomItemPagination
 
 class CodeExportTaskContestRetriveUpdateAPIView(generics.RetrieveUpdateAPIView):
+    permission_classes = (IsAdminUser,)
     queryset = Contest.objects.using(DATABSENAME).all()
     serializer_class = CodeExportTaskContestSerializer
     pagination_class = CustomItemPagination
@@ -93,8 +98,15 @@ class CodeExportTaskContestRetriveUpdateAPIView(generics.RetrieveUpdateAPIView):
 
 class CodeExportZipFileDownloadView(View):
     TOPDIRECTORY = os.path.join(settings.MEDIA_ROOT, 'export')
+    def checkHasPermission(self,request):
+        if request.is_superuser:
+            return True
+        return False
     def get(self,request,*args,**kwargs):
         try:
+            if not self.checkHasPermission():
+                raise Exception("You not has permission in CodeExportZipFileDownloadView Class !")
+
             contest_id = kwargs['contest_id']
             export_zip_file_path = "{}.zip".format( os.path.join(self.TOPDIRECTORY,contest_id) )
             with open(export_zip_file_path, 'rb') as file:
