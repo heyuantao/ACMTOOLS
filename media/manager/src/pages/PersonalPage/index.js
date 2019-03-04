@@ -108,12 +108,9 @@ class PersonalPage extends React.Component {
                             </FormItem>
                             <FormItem {...tailFormItemLayout}>
                                 <Row type="flex" justify="end" align="middle">
-                                    <Link to="/examination" style={{marginRight:"10px"}}>
-                                        <Button>取消</Button>
-                                    </Link>
                                     <Button onClick={() => { this.handlePasswordChangeSubmit() }} className="login-form-button"
                                         type={this.state.formFieldValidateInfo === "" ? 'primary' : 'disabled'}>
-                                        确定
+                                        修改
                                     </Button>
                                 </Row>
                             </FormItem>
