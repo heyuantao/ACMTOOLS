@@ -3,7 +3,7 @@
   apt: 
     name: nginx
     update_cache: yes
-  sudo: yes
+  #sudo: yes
 
 - name: Back the old nginx default
   copy:
@@ -12,11 +12,11 @@
     owner: root
     group: root
     mode: 0644
-  sudo: yes
+  #sudo: yes
 
 - name: Write the Nginx configuration file
   template: src=default.j2 dest=/etc/nginx/sites-available/default
-  sudo: yes
+  #sudo: yes
 
 
 - name: Change the Nginx configuration file permission
@@ -25,10 +25,10 @@
     owner: root
     group: root
     mode: 0644
-  sudo: yes
+  #sudo: yes
 
 - name: Restart the nginx 
   service:
    name: nginx
    state: restarted
-  sudo: yes
+  #sudo: yes

@@ -3,7 +3,7 @@
   apt: 
     name: mysql-server
     update_cache: yes
-  sudo: yes
+  #sudo: yes
 
 - name: Back the old MySQL my.cnf
   copy:
@@ -12,7 +12,7 @@
     owner: root
     group: root
     mode: 0644
-  sudo: yes
+  #sudo: yes
 
 - name: Write the MySQL configuration file
   template: 
@@ -21,14 +21,14 @@
      owner: root
      group: root
      mode: 0644
-  sudo: yes
+  #sudo: yes
 
 
 - name: Restart the MySQL 
   service:
    name: mysql
    state: restarted
-  sudo: yes
+  #sudo: yes
 
 #- name: Update MySQL root Password
 #  mysql_user:
@@ -43,6 +43,6 @@
   service:
    name: mysql
    state: restarted
-  sudo: yes
+  #sudo: yes
 
 

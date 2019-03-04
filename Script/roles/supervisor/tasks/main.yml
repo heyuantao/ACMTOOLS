@@ -3,7 +3,7 @@
     name: "{{item}}"
   with_items:
     - supervisor
-  sudo: yes
+  #sudo: yes
 
 
 - name: Create web supervisor conf file
@@ -11,19 +11,19 @@
     src:  acmtools.conf.j2
     dest: /etc/supervisor/conf.d/acmtools.conf
     mode: 0644
-  sudo: yes
+  #sudo: yes
 
 - name: Create worker supervisor conf file
   template:
     src:  worker.conf.j2
     dest: /etc/supervisor/conf.d/worker.conf
     mode: 0644
-  sudo: yes
+  #sudo: yes
 
 - name: Restart supervisor
   service:
     name: supervisor
     state: restarted
-  sudo: yes
+  #sudo: yes
 
 
