@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACMTOOLS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACMTOOLS/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HUSTOJ/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HUSTOJ/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MAIN/tasks/CodeExport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+            <state relative-caret-position="104">
+              <caret line="114" column="106" selection-start-line="114" selection-start-column="106" selection-end-line="114" selection-end-column="106" />
               <folding>
                 <element signature="e#473#506#0" />
                 <element signature="e#601#779#0" />
@@ -33,6 +35,27 @@
                 <element signature="e#1510#1785#0" />
                 <element signature="e#1842#2148#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="25" column="79" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="89" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -59,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HUSTOJ/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="45" column="35" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="35" />
+            <state relative-caret-position="158">
+              <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -108,6 +131,7 @@
       <find>logout</find>
       <find>DATABSENAME</find>
       <find>getContestResultDataFrame</find>
+      <find>get</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;in_date&quot;: &quot;2019-02-13&quot;</replace>
@@ -161,15 +185,15 @@
         <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/OneAccountWithMultiIP.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/OneIPWithMultiAccount.js" />
         <option value="$PROJECT_DIR$/MAIN/management/commands/createuser.py" />
-        <option value="$PROJECT_DIR$/HUSTOJ/views.py" />
         <option value="$PROJECT_DIR$/API/views.py" />
         <option value="$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2" />
-        <option value="$PROJECT_DIR$/ACMTOOLS/settings.py" />
         <option value="$PROJECT_DIR$/Script/readme.txt" />
         <option value="$PROJECT_DIR$/Script/roles/nginx/templates/default.j2" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/MAIN/tasks/AntiCheating.py" />
         <option value="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" />
+        <option value="$PROJECT_DIR$/ACMTOOLS/settings.py" />
+        <option value="$PROJECT_DIR$/HUSTOJ/views.py" />
       </list>
     </option>
   </component>
@@ -198,6 +222,11 @@
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
@@ -360,14 +389,7 @@
       <workItem from="1551572137939" duration="6184000" />
       <workItem from="1551582066648" duration="1368000" />
       <workItem from="1551599791311" duration="10330000" />
-      <workItem from="1551663393674" duration="9325000" />
-    </task>
-    <task id="LOCAL-00020" summary="hustoj user api">
-      <created>1551346210987</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1551346210987</updated>
+      <workItem from="1551663393674" duration="10317000" />
     </task>
     <task id="LOCAL-00021" summary="task job">
       <created>1551358122878</created>
@@ -705,22 +727,29 @@
       <option name="project" value="LOCAL" />
       <updated>1551679714852</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="nickname in codeexport">
+      <created>1551680168107</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1551680168107</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121509000" />
+    <option name="totallyTimeSpent" value="122501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18438178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18438178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.324295" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -742,7 +771,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="code export task finished" />
     <MESSAGE value="work done" />
     <MESSAGE value="login begin" />
     <MESSAGE value="sleep" />
@@ -767,7 +795,8 @@
     <MESSAGE value="work" />
     <MESSAGE value="before test the csv file generate" />
     <MESSAGE value="pandas work" />
-    <option name="LAST_COMMIT_MESSAGE" value="pandas work" />
+    <MESSAGE value="nickname in codeexport" />
+    <option name="LAST_COMMIT_MESSAGE" value="nickname in codeexport" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/media/login/package.json">
@@ -809,16 +838,6 @@
           <caret line="32" column="17" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="17" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1114,13 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Script/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1132,16 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HUSTOJ/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1170,10 +1172,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MAIN/tasks/CodeExport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+        <state relative-caret-position="104">
+          <caret line="114" column="106" selection-start-line="114" selection-start-column="106" selection-end-line="114" selection-end-column="106" />
           <folding>
             <element signature="e#473#506#0" />
             <element signature="e#601#779#0" />
@@ -1182,6 +1191,26 @@
             <element signature="e#1199#1433#0" />
             <element signature="e#1510#1785#0" />
             <element signature="e#1842#2148#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="25" column="79" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HUSTOJ/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>

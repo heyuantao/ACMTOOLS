@@ -107,12 +107,12 @@ class CodeExportTaskContestRetriveUpdateAPIView(generics.RetrieveUpdateAPIView):
 class CodeExportZipFileDownloadView(View):
     TOPDIRECTORY = os.path.join(settings.MEDIA_ROOT, 'export')
     def checkHasPermission(self,request):
-        if request.is_staff:
+        if request.user.is_staff:
             return True
         return False
     def get(self,request,*args,**kwargs):
         try:
-            if not self.checkHasPermission():
+            if not self.checkHasPermission(request):
                 raise Exception("You not has permission in CodeExportZipFileDownloadView Class !")
 
             contest_id = kwargs['contest_id']
