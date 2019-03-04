@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Script/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,56 +20,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Script/install.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Script/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Script/roles/nginx/templates/default.j2">
+        <entry file="file://$PROJECT_DIR$/MAIN/tasks/CodeExport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            <state relative-caret-position="133">
+              <caret line="120" column="34" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
+              <folding>
+                <element signature="e#473#506#0" />
+                <element signature="e#547#898#0" />
+                <element signature="e#948#1162#0" />
+                <element signature="e#1199#1433#0" />
+                <element signature="e#1510#1785#0" />
+                <element signature="e#1842#2148#0" />
+                <element signature="e#2674#2986#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml">
+        <entry file="file://$PROJECT_DIR$/MAIN/tasks/AntiCheating.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            <state relative-caret-position="275">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2">
+        <entry file="file://$PROJECT_DIR$/HUSTOJ/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="299">
+              <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,8 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MAIN/tasks/AntiCheating.py" />
-        <option value="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js" />
         <option value="$PROJECT_DIR$/media/login/src/pages/AppLayout.js" />
@@ -172,6 +155,8 @@
         <option value="$PROJECT_DIR$/ACMTOOLS/settings.py" />
         <option value="$PROJECT_DIR$/Script/readme.txt" />
         <option value="$PROJECT_DIR$/Script/roles/nginx/templates/default.j2" />
+        <option value="$PROJECT_DIR$/MAIN/tasks/AntiCheating.py" />
+        <option value="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" />
       </list>
     </option>
   </component>
@@ -204,28 +189,18 @@
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
+              <item name="HUSTOJ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="MAIN" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="Script" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="MAIN" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,21 +347,7 @@
       <workItem from="1551572137939" duration="6184000" />
       <workItem from="1551582066648" duration="1368000" />
       <workItem from="1551599791311" duration="10330000" />
-      <workItem from="1551663393674" duration="5457000" />
-    </task>
-    <task id="LOCAL-00016" summary="celery job work">
-      <created>1551334023726</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1551334023726</updated>
-    </task>
-    <task id="LOCAL-00017" summary="serializer">
-      <created>1551334452586</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1551334452586</updated>
+      <workItem from="1551663393674" duration="7680000" />
     </task>
     <task id="LOCAL-00018" summary="pagination work">
       <created>1551335230695</created>
@@ -717,11 +678,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551667131977</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="nginx">
+      <created>1551675889087</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1551675889087</updated>
+    </task>
+    <task id="LOCAL-00066" summary="work">
+      <created>1551676761507</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1551676761507</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117641000" />
+    <option name="totallyTimeSpent" value="119864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -754,8 +729,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="beautiful" />
-    <MESSAGE value="delete useless code" />
     <MESSAGE value="post calc ok" />
     <MESSAGE value="code export task ready to test" />
     <MESSAGE value="code export task finished" />
@@ -779,7 +752,9 @@
     <MESSAGE value="ready to test again" />
     <MESSAGE value="finished" />
     <MESSAGE value="debug mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="debug mode" />
+    <MESSAGE value="nginx" />
+    <MESSAGE value="work" />
+    <option name="LAST_COMMIT_MESSAGE" value="work" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/media/manager/package.json">
@@ -897,24 +872,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN/tasks/CodeExport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="99" selection-start-line="99" selection-end-line="101" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MAIN/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN/tasks/AntiCheating.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1944">
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1109,16 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HUSTOJ/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1176,8 +1127,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Script/roles/nginx/templates/default.j2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        <state relative-caret-position="525">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HUSTOJ/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAIN/tasks/AntiCheating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAIN/tasks/CodeExport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="120" column="34" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
+          <folding>
+            <element signature="e#473#506#0" />
+            <element signature="e#547#898#0" />
+            <element signature="e#948#1162#0" />
+            <element signature="e#1199#1433#0" />
+            <element signature="e#1510#1785#0" />
+            <element signature="e#1842#2148#0" />
+            <element signature="e#2674#2986#0" />
+          </folding>
         </state>
       </provider>
     </entry>

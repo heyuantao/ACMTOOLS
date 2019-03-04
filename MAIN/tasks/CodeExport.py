@@ -6,6 +6,7 @@ from HUSTOJ.models import Solution,Contest,SourceCode,ContestProblem
 from MAIN.models import TaskTracking
 from celery.task import Task
 from datetime import datetime
+import pandas as pd
 import shutil
 import os
 import logging
@@ -32,7 +33,6 @@ class CodeExportExporter:
         else:
             self.contest_title = ""
         return self.contest_title
-
 
     def getContestProblemIdList(self):
         contest_query_set = ContestProblem.objects.using(DATABSENAME).filter(contest_id=self.contest_id)
@@ -67,6 +67,29 @@ class CodeExportExporter:
             return solution_query_set[0].solution_id
         else:
             return None
+
+    def getSolutionIdInContestByProbmemAndUser(self,contest_id,problem_id,user_id):
+        solution_query_set = Solution.objects.using(DATABSENAME).filter(user_id=user_id). \
+            filter(contest_id=self.contest_id).filter(problem_id=problem_id). \
+            filter(result=4)
+        if solution_query_set:
+            return solution_query_set[0].solution_id
+        else:
+            return -1
+
+    def getContestResultDataFrame(self):
+        user_id_list = self.getUserList()
+        problem_id_list = self.getCodeOfSolutionId()
+        result_list = []
+        for one_user_id in user_id_list:
+            one_row_dict_in_result_list = {}
+            for one_problem_id in problem_id_list:
+                one_solution_id = self.getSolutionIdInContestByProbmemAndUser(self.contest_id,one_problem_id,one_user_id)
+                one_row_dict_in_result_list[one_user_id]=one_solution_id
+            result_list.append(one_row_dict_in_result_list)
+        result_pd = pd.DataFrame.from_dict(result_list)
+        return result_pd
+
     def run(self):
         contest_directory = os.path.join(TOPDIRECTORY,str(self.contest_id))
         contest_directory_zip_file = "{}.zip".format(contest_directory)
@@ -91,6 +114,11 @@ class CodeExportExporter:
                 file_name = os.path.join(user_directory_in_contest,"{}.c".format(problem_id))
                 with open(file_name,'w',encoding='utf-8') as file:
                     file.write(source_code)
+        ######################################
+        #generate result csv
+        contest_csv_file = os.path.join(TOPDIRECTORY,str(self.contest_id), "{}.csv".format(self.contest_id))
+        df = self.getContestResultDataFrame()
+        df.to_csv(contest_csv_file)
         ######################################
         #zip and delete dir
         shutil.make_archive(contest_directory, 'zip', contest_directory)
