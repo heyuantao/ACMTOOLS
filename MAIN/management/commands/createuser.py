@@ -34,8 +34,10 @@ class Command(BaseCommand):
 
             if type=="admin":
                 user_instance.is_superuser=True
+                user_instance.is_staff = True
             else:
                 user_instance.is_superuser=False
+                user_instance.is_staff = False
             user_instance.save()
 
             self.stdout.write(self.style.SUCCESS("Successfully Create User !".format(username)))
