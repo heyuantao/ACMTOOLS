@@ -28,7 +28,4 @@ urlpatterns = [
     url(r'^$', RedirectView.as_view(url="/main")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-#clear pending task at setup
-#from MAIN.tasks.ClearPending import ClearPendingTask
-#print("Run ClearPendingTask !")
-#ClearPendingTask.delay()
+

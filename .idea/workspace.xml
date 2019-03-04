@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Script/roles/redis/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACMTOOLS/celeryconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACMTOOLS/celeryconfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACMTOOLS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACMTOOLS/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script/install.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Script/install.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACMTOOLS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACMTOOLS/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,13 +21,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACMTOOLS/celeryconfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="6">
               <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACMTOOLS/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#642#674#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,14 +131,12 @@
         <option value="$PROJECT_DIR$/MAIN/urls.py" />
         <option value="$PROJECT_DIR$/MAIN/serializers.py" />
         <option value="$PROJECT_DIR$/media/login/public/index.html" />
-        <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/Common/PageFooter.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/Common/PageHeader.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/Common/SideBar.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/index.js" />
         <option value="$PROJECT_DIR$/MAIN/models.py" />
         <option value="$PROJECT_DIR$/MAIN/tasks/ClearPending.py" />
-        <option value="$PROJECT_DIR$/ACMTOOLS/urls.py" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/AntiCheatingContestList.js" />
         <option value="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js" />
         <option value="$PROJECT_DIR$/media/.gitignore" />
@@ -132,6 +152,8 @@
         <option value="$PROJECT_DIR$/Script/roles/redis/tasks/main.yml" />
         <option value="$PROJECT_DIR$/Script/install.yml" />
         <option value="$PROJECT_DIR$/ACMTOOLS/celeryconfig.py" />
+        <option value="$PROJECT_DIR$/ACMTOOLS/urls.py" />
+        <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" />
       </list>
     </option>
   </component>
@@ -160,6 +182,41 @@
               <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
               <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginPage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,6 +363,7 @@
       <workItem from="1551572137939" duration="6184000" />
       <workItem from="1551582066648" duration="1368000" />
       <workItem from="1551599791311" duration="10330000" />
+      <workItem from="1551663393674" duration="398000" />
     </task>
     <task id="LOCAL-00008" summary="continue">
       <created>1551279369019</created>
@@ -654,13 +712,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112184000" />
+    <option name="totallyTimeSpent" value="112582000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28698465" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -671,10 +728,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.17678958" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -916,16 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1559">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/PageFooter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -978,16 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACMTOOLS/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="e#642#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MAIN/tasks/ClearPending.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1036,9 +1073,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/run.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/run.py" />
     <entry file="file://$PROJECT_DIR$/Script/hosts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1109,13 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2375">
-          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Script/roles/common/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -1130,12 +1158,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ACMTOOLS/celeryconfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="6">
           <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACMTOOLS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#642#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

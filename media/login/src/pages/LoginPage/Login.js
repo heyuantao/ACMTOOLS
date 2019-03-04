@@ -77,11 +77,11 @@ class Login extends React.Component {
                     <Col md={{ span: 6 }}>
                         <Form className="login-form">
                             <FormItem>
-                                <Input  onBlur={(e) => { this.handleFieldChange(e.target.value, "email") }}
+                                <Input  onChange={(e) => { this.handleFieldChange(e.target.value, "email") }} value={formData.get("email")}
                                     prefix={<Icon type="user" style={{ fontSize: 13 }} />} placeholder="请输入用户名" size="large" />
                             </FormItem>
                             <FormItem>
-                                <Input onBlur={(e) => { this.handleFieldChange(e.target.value, "password") }}
+                                <Input onChange={(e) => { this.handleFieldChange(e.target.value, "password") }} value={formData.get("password")}
                                     prefix={<Icon type="lock" style={{ fontSize: 13 }} />} type="password" placeholder="请输入密码" size="large" />
                             </FormItem>
                             <FormItem hasFeedback >
