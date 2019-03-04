@@ -10,13 +10,16 @@ from django.conf import settings
 from HUSTOJ.models import Contest
 from HUSTOJ.serializers import AntiCheatingTaskContestSerializer,CodeExportTaskContestSerializer
 from datetime import datetime
+from django.conf import settings
 from MAIN.tasks.AntiCheating import AntiCheatingTask
 from MAIN.tasks.CodeExport import CodeExportTask
 import logging
+import traceback
 import os
 
 logger = logging.getLogger(__name__)
 DATABSENAME = 'hustoj'
+
 
 # Create your views here.
 
@@ -39,7 +42,8 @@ class AntiCheatingTaskContestRetriveUpdateAPIView(generics.RetrieveUpdateAPIView
             seralizer_class = self.get_serializer_class()
             seralizer = seralizer_class(instance)
             return Response(seralizer.data, status=200)
-        except Exception:
+        except Exception as error:
+            logger.exception(error)
             return Response({}, status=400)
 
     def update(self, request, *args, **kwargs):
@@ -56,7 +60,8 @@ class AntiCheatingTaskContestRetriveUpdateAPIView(generics.RetrieveUpdateAPIView
                 instance.save()
             AntiCheatingTask.delay(int(contest_id))
             return Response({},status=200)
-        except Exception:
+        except Exception as error:
+            logger.exception(error)
             return Response({}, status=400)
 
 class CodeExportTaskContestListAPIView(generics.ListAPIView):
@@ -77,8 +82,10 @@ class CodeExportTaskContestRetriveUpdateAPIView(generics.RetrieveUpdateAPIView):
             seralizer_class = self.get_serializer_class()
             seralizer = seralizer_class(instance)
             return Response(seralizer.data, status=200)
-        except Exception:
+        except Exception as error:
+            logger.exception(error)
             return Response({}, status=400)
+
     def update(self, request, *args, **kwargs):
         try:
             contest_id = kwargs['contest_id']
@@ -93,7 +100,8 @@ class CodeExportTaskContestRetriveUpdateAPIView(generics.RetrieveUpdateAPIView):
                 instance.save()
             CodeExportTask.delay(int(contest_id))
             return Response({},status=200)
-        except Exception:
+        except Exception as error:
+            logger.exception(error)
             return Response({}, status=400)
 
 class CodeExportZipFileDownloadView(View):
@@ -115,5 +123,6 @@ class CodeExportZipFileDownloadView(View):
                 response['Content-Disposition'] = 'attachment; filename="code.zip"'
                 return response
 
-        except Exception:
+        except Exception as error:
+            logger.exception(error)
             return Response({}, status=400)

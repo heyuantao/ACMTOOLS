@@ -4,6 +4,7 @@ from rest_framework import generics
 from rest_framework.response import Response
 from django.contrib.auth import authenticate, login, logout
 from django.core.urlresolvers import reverse
+from django.conf import settings
 from HUSTOJ.models import Contest,Users
 from HUSTOJ.serializers import ContestSerializer,HUSTOJUserSerializer
 from MAIN.models import TaskTracking
