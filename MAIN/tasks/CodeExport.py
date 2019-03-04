@@ -79,13 +79,14 @@ class CodeExportExporter:
 
     def getContestResultDataFrame(self):
         user_id_list = self.getUserList()
-        problem_id_list = self.getCodeOfSolutionId()
+        problem_id_list = self.getContestProblemIdList()
         result_list = []
         for one_user_id in user_id_list:
             one_row_dict_in_result_list = {}
+            one_row_dict_in_result_list['user_id']=one_user_id
             for one_problem_id in problem_id_list:
                 one_solution_id = self.getSolutionIdInContestByProbmemAndUser(self.contest_id,one_problem_id,one_user_id)
-                one_row_dict_in_result_list[one_user_id]=one_solution_id
+                one_row_dict_in_result_list[one_problem_id]=one_solution_id
             result_list.append(one_row_dict_in_result_list)
         result_pd = pd.DataFrame.from_dict(result_list)
         return result_pd

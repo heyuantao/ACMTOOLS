@@ -17,3 +17,4 @@ schedule==0.6.0
 django-celery==3.2.2
 redis==2.10.6
 django-extensions==2.1.6
+pandas==0.20.3

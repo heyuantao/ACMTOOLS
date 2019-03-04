@@ -4,6 +4,7 @@
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MAIN/tasks/CodeExport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="120" column="34" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
+            <state relative-caret-position="550">
+              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="e#473#506#0" />
                 <element signature="e#547#898#0" />
@@ -32,8 +33,16 @@
                 <element signature="e#1199#1433#0" />
                 <element signature="e#1510#1785#0" />
                 <element signature="e#1842#2148#0" />
-                <element signature="e#2674#2986#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -42,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/MAIN/tasks/AntiCheating.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -51,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/HUSTOJ/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="35" />
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="35" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -95,6 +104,7 @@
       <find>handleLoginSubmit</find>
       <find>logout</find>
       <find>DATABSENAME</find>
+      <find>getContestResultDataFrame</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;in_date&quot;: &quot;2019-02-13&quot;</replace>
@@ -106,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js" />
         <option value="$PROJECT_DIR$/media/login/src/pages/AppLayout.js" />
         <option value="$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js" />
@@ -157,6 +166,7 @@
         <option value="$PROJECT_DIR$/Script/roles/nginx/templates/default.j2" />
         <option value="$PROJECT_DIR$/MAIN/tasks/AntiCheating.py" />
         <option value="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -347,14 +357,7 @@
       <workItem from="1551572137939" duration="6184000" />
       <workItem from="1551582066648" duration="1368000" />
       <workItem from="1551599791311" duration="10330000" />
-      <workItem from="1551663393674" duration="7680000" />
-    </task>
-    <task id="LOCAL-00018" summary="pagination work">
-      <created>1551335230695</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1551335230695</updated>
+      <workItem from="1551663393674" duration="9009000" />
     </task>
     <task id="LOCAL-00019" summary="contest id show">
       <created>1551335395322</created>
@@ -692,11 +695,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551676761507</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="before test the csv file generate">
+      <created>1551678132941</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1551678132941</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119864000" />
+    <option name="totallyTimeSpent" value="121193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -729,7 +739,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="post calc ok" />
     <MESSAGE value="code export task ready to test" />
     <MESSAGE value="code export task finished" />
     <MESSAGE value="work done" />
@@ -754,7 +763,8 @@
     <MESSAGE value="debug mode" />
     <MESSAGE value="nginx" />
     <MESSAGE value="work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work" />
+    <MESSAGE value="before test the csv file generate" />
+    <option name="LAST_COMMIT_MESSAGE" value="before test the csv file generate" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/media/manager/package.json">
@@ -939,9 +949,6 @@
           <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ACMTOOLS/celeryconfig.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1135,7 +1142,7 @@
     <entry file="file://$PROJECT_DIR$/HUSTOJ/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="35" />
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="35" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
@@ -1145,14 +1152,14 @@
     <entry file="file://$PROJECT_DIR$/MAIN/tasks/AntiCheating.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MAIN/tasks/CodeExport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="120" column="34" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
+        <state relative-caret-position="550">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="e#473#506#0" />
             <element signature="e#547#898#0" />
@@ -1160,8 +1167,14 @@
             <element signature="e#1199#1433#0" />
             <element signature="e#1510#1785#0" />
             <element signature="e#1842#2148#0" />
-            <element signature="e#2674#2986#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
