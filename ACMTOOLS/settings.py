@@ -89,15 +89,17 @@ DATABASES = {
         'NAME': 'acmtools',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     },
     'hustoj': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'jol',
         'USER': 'readonly',
-        'PASSWORD': '123',
-        'HOST': 'acm.syslab.org',
+        'PASSWORD': '60632108',
+        #'PASSWORD': '123',
+	'HOST': '172.16.3.19',
+        #'HOST': 'acm.syslab.org',
         'PORT': '3306',
     }
 }
@@ -183,6 +185,6 @@ REST_FRAMEWORK = {
 #Celery Settings
 from .celeryconfig import *
 BROKER_BACKEND = 'redis'
-BROKER_URL = 'redis://localhost:6379/1'
-CELERY_RESULT_BACKEND = 'redis://localhost:6379/2'
+BROKER_URL = 'redis://127.0.0.1:6379/1'
+CELERY_RESULT_BACKEND = 'redis://127.0.0.1:6379/2'
 
