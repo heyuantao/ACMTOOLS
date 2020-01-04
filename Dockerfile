@@ -8,6 +8,7 @@ COPY ACMTOOLS  /app/ACMTOOLS/ACMTOOLS/
 COPY API       /app/ACMTOOLS/API/
 COPY HUSTOJ    /app/ACMTOOLS/HUSTOJ/
 COPY MAIN      /app/ACMTOOLS/MAIN/
+COPY docker    /app/ACMTOOLS/docker/
 COPY requirements.txt /app/ACMTOOLS/requirements.txt
 
 COPY media/export         /app/ACMTOOLS/media/export/
@@ -16,7 +17,7 @@ COPY media/manager/build  /app/ACMTOOLS/media/manager/build/
 
 COPY manage.py /app/ACMTOOLS/
 
-
+#RUN find . -name '*.pyc' -delete
 RUN apt-get update 
 RUN apt-get install -y python3 python3-pip python3-dev libmysqlclient-dev python-mysqldb libssl-dev nginx supervisor
 RUN pip3 install -r /app/ACMTOOLS/requirements.txt  -i https://pypi.douban.com/simple
