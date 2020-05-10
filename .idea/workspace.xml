@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
+    <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="mysqld">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/mysqld.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysqld/mysqld.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.MD" beforeDir="false" afterPath="$PROJECT_DIR$/readme.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,14 +184,7 @@
       <workItem from="1551582066648" duration="1368000" />
       <workItem from="1551599791311" duration="10330000" />
       <workItem from="1551663393674" duration="10317000" />
-      <workItem from="1589105024597" duration="3995000" />
-    </task>
-    <task id="LOCAL-00027" summary="manager ui nav change">
-      <created>1551412112760</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1551412112760</updated>
+      <workItem from="1589105024597" duration="6710000" />
     </task>
     <task id="LOCAL-00028" summary="manager ui nav change">
       <created>1551421750881</created>
@@ -529,14 +522,20 @@
       <option name="project" value="LOCAL" />
       <updated>1589109615395</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="mysqld">
+      <created>1589109938497</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1589109938497</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="great" />
     <MESSAGE value="project finished" />
     <MESSAGE value="ready to deploy" />
     <MESSAGE value="task pending to error,might has error" />
@@ -561,21 +560,22 @@
     <MESSAGE value="continue" />
     <MESSAGE value="change" />
     <MESSAGE value="work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work" />
+    <MESSAGE value="mysqld" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysqld" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1589109614282">
+    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1589114670388">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589109614282" />
-    <state x="232" y="73" key="Vcs.Push.Dialog.v2" timestamp="1589109623843">
+    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589114670388" />
+    <state x="232" y="73" key="Vcs.Push.Dialog.v2" timestamp="1589109939524">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589109623843" />
-    <state x="337" y="131" key="git4idea.merge.GitPullDialog" timestamp="1589106060312">
+    <state x="232" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589109939524" />
+    <state x="337" y="131" key="git4idea.merge.GitPullDialog" timestamp="1589113201194">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="131" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1589106060312" />
+    <state x="337" y="131" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1589113201194" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589105468056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

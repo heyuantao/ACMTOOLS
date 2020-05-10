@@ -6,9 +6,9 @@ build image
 ```
 git clone https://github.com/heyuantao/ACMTOOLS.git
 cd ACMTOOLS
-docker built -t acmtools:3.0 .
+docker build -t acmtools:3.0 .
 ```
-###1.2 Start the mysql docker
+###1.2 Start the mysql and redis docker
 create the app dir
 ```
 sudo mkdir -p /app
