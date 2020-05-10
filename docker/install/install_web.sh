@@ -1,5 +1,5 @@
-echo "Install Apt Package !"
-apt-get update  && apt-get install -y python-mysqldb && apt-get clean
+#echo "Install Apt Package !"
+#apt-get update  && apt-get install -y python-mysqldb && apt-get clean
 
 
 echo "Install virtualenv and requirements !"
