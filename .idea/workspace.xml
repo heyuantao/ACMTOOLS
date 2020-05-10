@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile.standalone" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/install/install_web.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ACMTOOLS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACMTOOLS/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/install/init_web.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/install/init_web.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/install/init_web.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,37 +28,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>solution</find>
-      <find>User</find>
-      <find>USER</find>
-      <find>solution_id</find>
-      <find>getContestName</find>
-      <find>contest</find>
-      <find>BaseTask</find>
-      <find>print</find>
-      <find>getUserQuerySet</find>
-      <find>using</find>
-      <find>expandedRowRender</find>
-      <find>&quot;in_date&quot;: &quot;1&quot;</find>
-      <find>fetchTableData</find>
-      <find>rai</find>
-      <find>TaskTracking</find>
-      <find>values</find>
-      <find>objects</find>
-      <find>des</find>
-      <find>dashboardurl</find>
-      <find>handleLoginSubmit</find>
-      <find>logout</find>
-      <find>DATABSENAME</find>
-      <find>getContestResultDataFrame</find>
-      <find>get</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>&quot;in_date&quot;: &quot;2019-02-13&quot;</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -220,14 +186,7 @@
       <workItem from="1551582066648" duration="1368000" />
       <workItem from="1551599791311" duration="10330000" />
       <workItem from="1551663393674" duration="10317000" />
-      <workItem from="1589105024597" duration="696000" />
-    </task>
-    <task id="LOCAL-00021" summary="task job">
-      <created>1551358122878</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1551358122878</updated>
+      <workItem from="1589105024597" duration="1004000" />
     </task>
     <task id="LOCAL-00022" summary="change task">
       <created>1551359511974</created>
@@ -565,14 +524,20 @@
       <option name="project" value="LOCAL" />
       <updated>1551680168107</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="change">
+      <created>1589105745186</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1589105745187</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="work done" />
     <MESSAGE value="login begin" />
     <MESSAGE value="sleep" />
     <MESSAGE value="great" />
@@ -597,9 +562,14 @@
     <MESSAGE value="before test the csv file generate" />
     <MESSAGE value="pandas work" />
     <MESSAGE value="nickname in codeexport" />
-    <option name="LAST_COMMIT_MESSAGE" value="nickname in codeexport" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1589105743680">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589105743680" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589105468056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

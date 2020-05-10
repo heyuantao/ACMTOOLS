@@ -13,18 +13,18 @@ savedata: ##save data base and uploads file
 
 
 loaddata:  ##load data to database
-	@echo "Load data from /tmp/filemanager_db.sql in debug container !"
-	@mysql -h 127.0.0.1 -u root  filemanager < /tmp/filemanager_db.sql
+	@echo "Load data from /tmp/acmtools_db.sql in debug container !"
+	@mysql -h 127.0.0.1 -u root  acmtools < /tmp/acmtools_db.sql
 
 
 uploaddata: ## upload to s3 storage
 	@echo "Upload files to s3 ! Please set the ~/.s3cfg file first and install s3cmd !"
-	@s3cmd put /tmp/filemanager_db.sql	s3://uploads/
+	@s3cmd put /tmp/acmtools_db.sql	s3://uploads/
 
 
 downloaddata: ## download file from s3
 	@echo "Download files to s3 ! Please set the ~/.s3cfg file first and install s3cmd !"
-	@s3cmd get s3://uploads/filemanager_db.sql	/tmp/
+	@s3cmd get s3://uploads/acmtools_db.sql	/tmp/
 
 
 installenv:
@@ -38,17 +38,17 @@ installnodeenv:
 	@echo "Install NodeEnv and nodemodules!"
 	@nodeenv ../nodeenv --node=10.15.3 --prebuilt --mirror=npm.taobao.org
 	@npm install -g yarn --registry https://registry.npm.taobao.org
-	@cd ./media/guest/    && yarn install --registry  https://registry.npm.taobao.org
+	@cd ./media/login/    && yarn install --registry  https://registry.npm.taobao.org
 	@cd ./media/manager/  && yarn install --registry  https://registry.npm.taobao.org
 
 
 buildnodemodules:
 	@echo "build the node modules"
-	@cd ./media/guest/ && yarn run build
+	@cd ./media/login/ && yarn run build
 	@cd ./media/manager/ && yarn run build
 
 
 cleannodemodules:
 	@echo "clean the node modules"
-	@rm -Rf ./media/guest/node_modules
+	@rm -Rf ./media/login/node_modules
 	@rm -Rf ./media/manager/node_modules
