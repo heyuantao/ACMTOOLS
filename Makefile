@@ -52,3 +52,7 @@ cleannodemodules:
 	@echo "clean the node modules"
 	@rm -Rf ./media/login/node_modules
 	@rm -Rf ./media/manager/node_modules
+
+initsystem:
+	@echo "Init the system using docker/install/init_web.sh !"
+	@bash docker/install/init_web.sh

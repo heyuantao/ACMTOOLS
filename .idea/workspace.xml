@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docker/supervisord/acmtools.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/supervisord/acmtools.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/mysqld.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/mysqld.cnf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,14 +186,7 @@
       <workItem from="1551582066648" duration="1368000" />
       <workItem from="1551599791311" duration="10330000" />
       <workItem from="1551663393674" duration="10317000" />
-      <workItem from="1589105024597" duration="1524000" />
-    </task>
-    <task id="LOCAL-00024" summary="go to sleep">
-      <created>1551363747873</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1551363747873</updated>
+      <workItem from="1589105024597" duration="3466000" />
     </task>
     <task id="LOCAL-00025" summary="manager ui begin">
       <created>1551410429492</created>
@@ -528,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589106536997</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="continue">
+      <created>1589106567227</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1589106567227</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,14 +566,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="continue" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1589106535798">
+    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1589106566001">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589106535798" />
-    <state x="232" y="73" key="Vcs.Push.Dialog.v2" timestamp="1589106538435">
+    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589106566001" />
+    <state x="232" y="73" key="Vcs.Push.Dialog.v2" timestamp="1589106568549">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589106538435" />
+    <state x="232" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589106568549" />
     <state x="337" y="131" key="git4idea.merge.GitPullDialog" timestamp="1589106060312">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
