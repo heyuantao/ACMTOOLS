@@ -1,4 +1,4 @@
-FROM harbor.syslab.org/library/ubuntu:18.04
+FROM harbor.syslab.org/library/python3web:1.0
 
 #RUN mkdir  -p /app/ACMTOOLS/
 #ADD ACMTOOLS /app/ACMTOOLS/
@@ -17,11 +17,8 @@ COPY media/manager/build  /app/ACMTOOLS/media/manager/build/
 
 COPY manage.py /app/ACMTOOLS/
 
-#RUN find . -name '*.pyc' -delete
-RUN apt-get update 
-RUN apt-get install -y python3 python3-pip python3-dev libmysqlclient-dev python-mysqldb libssl-dev nginx supervisor
+RUN apt-get update  && apt-get install -y  python-mysqldb && apt-get clean
 RUN pip3 install -r /app/ACMTOOLS/requirements.txt  -i https://pypi.douban.com/simple
-#RUN pip3 install  gunicorn -i https://pypi.douban.com/simple
 
 
 # Service config files

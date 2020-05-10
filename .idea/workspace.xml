@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5403ec-96bc-4b32-830b-819765f74782" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile.standalone" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/install/install_web.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ACMTOOLS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACMTOOLS/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HUSTOJ/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HUSTOJ/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/install/init_web.sh" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,83 +21,6 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MAIN/tasks/CodeExport.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="114" column="106" selection-start-line="114" selection-start-column="106" selection-end-line="114" selection-end-column="106" />
-              <folding>
-                <element signature="e#473#506#0" />
-                <element signature="e#601#779#0" />
-                <element signature="e#547#898#0" />
-                <element signature="e#948#1162#0" />
-                <element signature="e#1199#1433#0" />
-                <element signature="e#1510#1785#0" />
-                <element signature="e#1842#2148#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="25" column="79" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="89" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MAIN/tasks/AntiCheating.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="49" selection-start-line="49" selection-end-line="54" selection-end-column="21" />
-              <folding>
-                <element signature="e#516#867#0" />
-                <element signature="e#910#1076#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HUSTOJ/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="247" column="8" selection-start-line="247" selection-start-column="4" selection-end-line="247" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HUSTOJ/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,116 +66,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/index.js" />
-        <option value="$PROJECT_DIR$/media/login/src/pages/AppLayout.js" />
-        <option value="$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js" />
-        <option value="$PROJECT_DIR$/media/login/src/store/reducer.js" />
-        <option value="$PROJECT_DIR$/media/login/package.json" />
-        <option value="$PROJECT_DIR$/media/login/src/pages/App.js" />
-        <option value="$PROJECT_DIR$/media/login/src/pages/Common/Utils.js" />
-        <option value="$PROJECT_DIR$/MAIN/views.py" />
-        <option value="$PROJECT_DIR$/media/manager/public/index.html" />
-        <option value="$PROJECT_DIR$/media/login/src/pages/Common/store/UserActionCreator.js" />
-        <option value="$PROJECT_DIR$/media/login/src/Settings.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/Settings.js" />
-        <option value="$PROJECT_DIR$/API/urls.py" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/Common/store/UserActionCreator.js" />
-        <option value="$PROJECT_DIR$/MAIN/urls.py" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/Common/PageFooter.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/Common/PageHeader.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/Common/SideBar.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/index.js" />
-        <option value="$PROJECT_DIR$/MAIN/models.py" />
-        <option value="$PROJECT_DIR$/MAIN/tasks/ClearPending.py" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/AntiCheatingContestList.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js" />
-        <option value="$PROJECT_DIR$/media/.gitignore" />
-        <option value="$PROJECT_DIR$/media/export/.gitignore" />
-        <option value="$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2" />
-        <option value="$PROJECT_DIR$/Script/prepare.sh" />
-        <option value="$PROJECT_DIR$/Script/install.yml" />
-        <option value="$PROJECT_DIR$/ACMTOOLS/celeryconfig.py" />
-        <option value="$PROJECT_DIR$/ACMTOOLS/urls.py" />
-        <option value="$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js" />
-        <option value="$PROJECT_DIR$/Script/roles/app/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/Script/roles/common/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/Script/roles/mysql/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/Script/roles/nginx/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/Script/roles/redis/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/media/login/public/index.html" />
-        <option value="$PROJECT_DIR$/MAIN/serializers.py" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/OneAccountWithMultiIP.js" />
-        <option value="$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/OneIPWithMultiAccount.js" />
-        <option value="$PROJECT_DIR$/MAIN/management/commands/createuser.py" />
-        <option value="$PROJECT_DIR$/API/views.py" />
-        <option value="$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2" />
-        <option value="$PROJECT_DIR$/Script/readme.txt" />
-        <option value="$PROJECT_DIR$/Script/roles/nginx/templates/default.j2" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/MAIN/tasks/AntiCheating.py" />
-        <option value="$PROJECT_DIR$/MAIN/tasks/CodeExport.py" />
-        <option value="$PROJECT_DIR$/ACMTOOLS/settings.py" />
-        <option value="$PROJECT_DIR$/HUSTOJ/views.py" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1937" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="1biBR393dg1XllmQ67fdJhaUAW5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="HUSTOJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="MAIN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACMTOOLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACMTOOLS" type="462c0819:PsiDirectoryNode" />
-              <item name="MAIN" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -263,32 +93,20 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\ACMTOOLS\Script\roles" />
-      <recent name="D:\Projects\ACMTOOLS\Script\roles\supervisor\templates" />
-      <recent name="D:\Projects\ACMTOOLS\media\login\src" />
-      <recent name="D:\Projects\ACMTOOLS\MAIN\tasks" />
-      <recent name="D:\Projects\ACMTOOLS\media\manager\src\pages\CodeExportPage" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\ACMTOOLS\docker\install" />
       <recent name="D:\Projects\ACMTOOLS\media\export" />
       <recent name="D:\Projects\ACMTOOLS\media\manager\src\pages" />
       <recent name="D:\Projects\ACMTOOLS\media" />
       <recent name="D:\Projects\ACMTOOLS" />
-      <recent name="D:\Projects\ACMTOOLS\MAIN" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\ACMTOOLS" />
+      <recent name="D:\Projects\ACMTOOLS\docker\install" />
+      <recent name="D:\Projects\ACMTOOLS\Script\roles" />
+      <recent name="D:\Projects\ACMTOOLS\Script\roles\supervisor\templates" />
+      <recent name="D:\Projects\ACMTOOLS\media\login\src" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.ACMTOOLS">
     <configuration name="AntiCheating (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -366,6 +184,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -390,6 +220,7 @@
       <workItem from="1551582066648" duration="1368000" />
       <workItem from="1551599791311" duration="10330000" />
       <workItem from="1551663393674" duration="10317000" />
+      <workItem from="1589105024597" duration="696000" />
     </task>
     <task id="LOCAL-00021" summary="task job">
       <created>1551358122878</created>
@@ -737,36 +568,6 @@
     <option name="localTasksCounter" value="70" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122501000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18438178" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.324295" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.17678958" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3275488" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -798,422 +599,10 @@
     <MESSAGE value="nickname in codeexport" />
     <option name="LAST_COMMIT_MESSAGE" value="nickname in codeexport" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/login/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/store/UserReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/store/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/pages/Common/store/UserActionCreator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/Settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/Settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/store/UserActionCreator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/PageFooter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/PageHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/Common/SideBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="60" column="78" selection-start-line="60" selection-start-column="78" selection-end-line="60" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN/tasks/ClearPending.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/AntiCheatingPage/AntiCheatingContestList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2225">
-          <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="n#!!block;n#componentWillReceiveProps#0;n#AntiCheatingContestList#0" />
-            <element signature="n#!!block;n#fetchTableListData#0;n#AntiCheatingContestList#0" />
-            <element signature="n#!!block;n#componentDidMount#0;n#AntiCheatingContestList#0" />
-            <element signature="n#!!block;n#handleTableChange#0;n#AntiCheatingContestList#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/CodeExportPage/CodeExportContestList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="115" column="34" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/export/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/run.py" />
-    <entry file="file://$PROJECT_DIR$/Script/hosts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/mysql/templates/mysqld.cnf.j2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/acmtools.conf.j2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/prepare.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACMTOOLS/celeryconfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACMTOOLS/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#642#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/src/pages/LoginPage/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/app/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1858">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/common/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/mysql/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/nginx/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/redis/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/login/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="127" column="52" selection-start-line="127" selection-start-column="52" selection-end-line="127" selection-end-column="52" />
-          <folding>
-            <element signature="e#24#73#0" expanded="true" />
-            <element signature="e#437#781#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/OneAccountWithMultiIP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="43" column="78" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/manager/src/pages/AntiCheatingAnalyzeResultPage/OneIPWithMultiAccount.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="44" column="78" selection-start-line="44" selection-start-column="78" selection-end-line="44" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HUSTOJ/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#1036#1651#0" />
-            <element signature="e#1685#1868#0" />
-            <element signature="e#1935#2297#0" />
-            <element signature="e#2369#2741#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN/management/commands/createuser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="28" column="91" selection-start-line="28" selection-start-column="91" selection-end-line="28" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/templates/worker.conf.j2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/supervisor/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/install.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/roles/nginx/templates/default.j2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HUSTOJ/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="247" column="8" selection-start-line="247" selection-start-column="4" selection-end-line="247" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN/tasks/AntiCheating.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="49" selection-start-line="49" selection-end-line="54" selection-end-column="21" />
-          <folding>
-            <element signature="e#516#867#0" />
-            <element signature="e#910#1076#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ACMTOOLS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAIN/tasks/CodeExport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="114" column="106" selection-start-line="114" selection-start-column="106" selection-end-line="114" selection-end-column="106" />
-          <folding>
-            <element signature="e#473#506#0" />
-            <element signature="e#601#779#0" />
-            <element signature="e#547#898#0" />
-            <element signature="e#948#1162#0" />
-            <element signature="e#1199#1433#0" />
-            <element signature="e#1510#1785#0" />
-            <element signature="e#1842#2148#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="25" column="79" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="89" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HUSTOJ/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589105468056">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589105468056" />
   </component>
 </project>

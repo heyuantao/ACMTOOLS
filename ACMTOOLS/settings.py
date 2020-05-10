@@ -102,7 +102,7 @@ DATABASES = {
         #'NAME': 'jol',
         #'USER': 'readonly',
         #'PASSWORD': '60632108',
-	#'HOST': '172.16.3.19',
+	    #'HOST': '172.16.3.19',
         'HOST': os.getenv('ACM_HOST', ''),
         'PORT': os.getenv('ACM_PORT', '3306'),
         'NAME': os.getenv('ACM_NAME', 'jol'),
